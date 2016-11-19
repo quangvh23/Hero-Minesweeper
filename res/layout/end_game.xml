@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/endgame">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp">
+        <ImageView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button"
+        android:id = "@+id/imageViewNewGame"
+        android:onClick="OnImageViewNewGameClick"
+        />
+
+        <TextView
+            android:id = "@+id/textViewNewGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="OnTextViewNewGameClick"
+            android:text="New game"
+            android:textColor="#ff101010" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button"
+            android:id = "@+id/imageViewMenu"
+        	android:onClick="OnImageViewMenuClick"
+            />
+        <TextView
+            android:id= "@+id/textViewMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:layout_gravity="center"
+            android:textColor="#ff101010"
+            android:onClick="OnTextViewMenuClick" />
+    </FrameLayout>
+	<FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="310dp"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button"
+            android:id = "@+id/imageViewHighScore"
+        	android:onClick="OnImageViewHighScoreClick"
+            />
+        <TextView
+            android:id="@+id/textViewHighScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Score"
+            android:layout_gravity="center"
+            android:textColor="#ff101010"
+            android:onClick="OnTextViewHighScoreClick" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cnpm.hero.startpage"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        >
+        <activity
+            android:name="cnpm.hero.startpage.StartPage"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cnpm.hero.startpage.MenuPage"
+            android:label="@string/title_activity_menu_page"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        <activity
+            android:name="cnpm.hero.gameminesweeper.MainClass"
+            android:label="@string/title_activity_menu_page"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        <activity
+            android:name="cnpm.hero.startpage.HighScore"
+            android:label="@string/title_activity_menu_page"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        <activity
+            android:name="cnpm.hero.startpage.SettingPage"
+            android:label="@string/title_activity_menu_page"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="cnpm.hero.startpage.EndGame"
+            android:label="@string/title_activity_menu_page"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/setting_layout"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    <TableRow>
+        <FrameLayout android:layout_height="50dp"
+            android:background="#ffff6970"
+            android:clickable="true">
+        <TextView android:text="  Music   "
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffffff"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        </FrameLayout>
+        <TextView android:layout_width="20dp"
+            android:layout_height="50dp"/>
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_gravity="center_vertical"
+            android:progress="50" />
+    </TableRow>
+    <TextView android:layout_height="20dp" />
+
+    <TableRow>
+        <FrameLayout android:layout_height="50dp"
+            android:background="#ff62a3ff"
+            android:clickable="true">
+            <TextView android:text="  Sound   "
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </FrameLayout>
+        <TextView android:layout_width="20dp"
+            android:layout_height="50dp"/>
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_gravity="center_vertical"
+            android:progress="100" />
+    </TableRow>
+    <TextView android:layout_height="20dp" />
+
+    <TableRow>
+        <FrameLayout android:layout_height="50dp"
+            android:background="#ffff8b61"
+            android:clickable="true">
+            <TextView android:text="  Mines   "
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </FrameLayout>
+        <TextView android:layout_width="20dp"
+            android:layout_height="50dp"/>
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_gravity="center_vertical"
+            android:progress="30" />
+    </TableRow>
+    <TextView android:layout_height="20dp" />
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:onClick="onClickOK"
+        android:id="@+id/OK"/>
+        
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

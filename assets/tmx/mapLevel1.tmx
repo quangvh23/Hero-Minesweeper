@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="11" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dich" tilewidth="32" tileheight="32">
+  <image source="tmx/dich.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="dich" value="dich"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="cua" tilewidth="32" tileheight="32">
+  <image source="tmx/cua.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="cua" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="so1" tilewidth="32" tileheight="32">
+  <image source="tmx/so1.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="so1" value="so1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4" name="so2" tilewidth="32" tileheight="32">
+  <image source="tmx/so2.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="so2" value="so2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="so3" tilewidth="32" tileheight="32">
+  <image source="tmx/so3.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="so3" value="so3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="6" name="da" tilewidth="32" tileheight="32">
+  <image source="tmx/da.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="da" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="7" name="vangto" tilewidth="32" tileheight="32">
+  <image source="tmx/vangto.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="vangto" value="vangto"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="8" name="thuocno" tilewidth="32" tileheight="32">
+  <image source="tmx/thuocno.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="thuocno" value="thuocno"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="9" name="chiakhoa" tilewidth="32" tileheight="32">
+  <image source="tmx/chiakhoa.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="chiakhoa" value="chiakhoa"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="riu" tilewidth="32" tileheight="32">
+  <image source="tmx/riu.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="riu" value="riu"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="11" name="mau" tilewidth="32" tileheight="32">
+  <image source="tmx/mau.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="mau" value="mau"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="12" name="vukhi" tilewidth="32" tileheight="32">
+  <image source="tmx/vukhi.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="vukhi" value="vukhi"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="13" name="quaivat" tilewidth="32" tileheight="32">
+  <image source="tmx/quaivat.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="quaivat" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="14" name="bay" tilewidth="32" tileheight="32">
+  <image source="tmx/bay.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="bay" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="15" name="vang" tilewidth="32" tileheight="32">
+  <image source="tmx/vang.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="vang" value="vang"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="16" name="vatcan" tilewidth="32" tileheight="32">
+  <image source="tmx/vatcan.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="vatcan" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="17" name="tuongphaduoc" tilewidth="32" tileheight="32">
+  <image source="tmx/tuongphaduoc.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="tuongphaduoc" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="18" name="background" tilewidth="32" tileheight="32">
+  <image source="tmx/tr.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="min" value="min"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="19" name="gold" tilewidth="32" tileheight="32">
+  <image source="tmx/go.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="vang" value="vang"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="20" name="1" tilewidth="32" tileheight="32">
+  <image source="tmx/1.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="21" name="2" tilewidth="32" tileheight="32">
+  <image source="tmx/2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="22" name="3" tilewidth="32" tileheight="32">
+  <image source="tmx/3.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="23" name="bay1" tilewidth="32" tileheight="32">
+  <image source="tmx/bay2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="24" name="bay2" tilewidth="32" tileheight="32">
+  <image source="tmx/bay3.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="25" name="bay3" tilewidth="32" tileheight="32">
+  <image source="tmx/bay4.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="26" name="bay4" tilewidth="32" tileheight="32">
+  <image source="tmx/bay5.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="27" name="biggold" tilewidth="32" tileheight="32">
+  <image source="tmx/to.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="vangto" value="vangto"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="28" name="heart" tilewidth="32" tileheight="32">
+  <image source="tmx/ti.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="mau" value="mau"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="29" name="pickaxe" tilewidth="32" tileheight="32">
+  <image source="tmx/p.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="riu" value="riu"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="30" name="dynamic" tilewidth="32" tileheight="32">
+  <image source="tmx/bom.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="thuocno" value="thuocno"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="31" name="weapon" tilewidth="32" tileheight="32">
+  <image source="tmx/v.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="vukhi" value="vukhi"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="32" name="shield" tilewidth="32" tileheight="32">
+  <image source="tmx/gi.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="giap" value="giap"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="33" name="key" tilewidth="32" tileheight="32">
+  <image source="tmx/k.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="chiakhoa" value="chiakhoa"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="34" name="bientren" tilewidth="32" tileheight="32">
+  <image source="tmx/can2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="35" name="bienduoi" tilewidth="32" tileheight="32">
+  <image source="tmx/can.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="36" name="bientrai" tilewidth="32" tileheight="32">
+  <image source="tmx/can3.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="37" name="bienphai" tilewidth="32" tileheight="32">
+  <image source="tmx/can4.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="38" name="biengoc" tilewidth="32" tileheight="32">
+  <image source="tmx/can5.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="39" name="da" tilewidth="32" tileheight="32">
+  <image source="tmx/d.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="da" value="da"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="40" name="tuong" tilewidth="32" tileheight="32">
+  <image source="tmx/tuong.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="tuong" value="tuong"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="41" name="otrong" tilewidth="32" tileheight="32">
+  <image source="tmx/o40.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="chuamo" value="chuamo"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="42" name="door" tilewidth="32" tileheight="32">
+  <image source="tmx/c.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="cua" value="cua"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="43" name="quai2" tilewidth="32" tileheight="32">
+  <image source="tmx/quai2.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="quaivat" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="44" name="quai3" tilewidth="32" tileheight="32">
+  <image source="tmx/quai3.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="quaivat" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="45" name="quai4" tilewidth="32" tileheight="32">
+  <image source="tmx/quai4.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="quaivat" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="46" name="dich" tilewidth="32" tileheight="32">
+  <image source="tmx/di.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="50" name="co" tilewidth="32" tileheight="32">
+  <image source="tmx/co.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="co" value="co"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="50" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGD5AaIjjUX8MLjzqj8GFR/0xuPCoPwYXHk4AAD+Kr2OYCAAA
+  </data>
+ </layer>
+ <layer name="so" width="50" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92UUQqAMAxDd4bhnHr/g4pgodSk7YY/+jHE2cXEvlpLKfXHa1EL3eu6Hex7Wp5eu/Xaizm6ybGRHMxjU9cD1CA9qWU5WH5Wg7ywfqAc4mUzZ60u0/Oeo/xRjeUG8YbOXD5W5Yf1OcvDbD+8ObG8jcyN5wPxEOX1ciAOIt9Iq4F+eJn0N5p5r/avuZa9Xp5zl9X1GJI5Ql4RzxGPcgbNNPt/MG5GOMkyNtvfzLNRfrPzHWlE3+7r6wRabP1JmAgAAA==
+  </data>
+ </layer>
+ <layer name="vatpham" width="50" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAUgIEwlNaSoowTQ0g58ZuOSI8U99AgfWtsrT0WzcAEZEtQS4zdFch1CJKBHmMAANfIisWZIE6mOVDtkyTST0nAeTOUYKUCYgfJymlQ5ZDEFPPrkoGxYWpFBk6dG/TLY4oOWAAD6VTDimAgAAA==
+  </data>
+ </layer>
+ <layer name="tuong" width="50" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGL5AY5jYOVL9ITwAdg6UmQNhpwYUayGxYRibOmwYl5nYsC4OPbQCuOxSJ1IdqWpoBQj5Q4eAOmLMogcYKfFBSB2pakYiAABTIxsQmAgAAA==
+  </data>
+ </layer>
+ <layer name="user" width="50" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC1NjYGBQGuJYDYhVGCBAEwmj8+mBKbFTFeoPapo56o9Rf+DzBy5AjjpCanHpIYT1gFgfjz9IDTNs/qNl+MOwARAb0sAf6DSt/UEoXQ2V+BiO/gDVhcpDHIP8AACNoQhimAgAAA==
+  </data>
+ </layer>
+ <layer name="camco" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGF7ACAmj8+mBKbETmx9G/THqD1r6AxcgRx0htbj0EOt+UvXjUovNf7QMf1r7A52mtT8IpauhEh/D1R/DAQAAhp8JFJgIAAA=
+  </data>
+ </layer>
+ <layer name="vatcan" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACxNgYGAQGCZ4qINRfwwuMOqPwQGGSz4fLv6AgVF/DC4w0PUvNTEA5yu72JgIAAA=
+  </data>
+ </layer>
+ <layer name="tuongphaduoc" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGL5AcJjYOeqPwWXncPKHIBobWQxdHTaMy0xcaukZdsTaRYy6gYhzUu0e9Qd9wHDxx2AGAPla5XeYCAAA
+  </data>
+ </layer>
+ <layer name="vang" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAUgwE8lNaSoowTQ0g58ZuOSI8U9AxWO9IiXgQLD2W/YADXS0FDPp+SCwVSOkQL4GSgvp0mVo0a9QA13E+uW4QIAolA5H5gIAAA=
+  </data>
+ </layer>
+ <layer name="bay" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAUwwDfEzKPEfGx6cZlHbX9QAvjQaFqYTaoaQvpIdSux6mkdL4PFHYMZUMvv2NI1tfM3sfLklDOkmEeKucMRUMPfwz3sAF/N252YCAAA
+  </data>
+ </layer>
+ <layer name="quaivat" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMAtoD3oF2wDAFo+E6CoYbAAA8mBvsmAgAAA==
+  </data>
+ </layer>
+ <layer name="vukhi" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSQCngG2gGDEIyGCX3AaDiPguEOADG5K5eYCAAA
+  </data>
+ </layer>
+ <layer name="mau" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMRsA90A4YBaNgFJAFRvMuZQAAH5IPoJgIAAA=
+  </data>
+ </layer>
+ <layer name="riu" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglFAb8A10A4YBaNgkAIA7awFtpgIAAA=
+  </data>
+ </layer>
+ <layer name="chiakhoa" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMBMA50A4YBaNgFIwCIgAAuKFQy5gIAAA=
+  </data>
+ </layer>
+ <layer name="thuocno" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkYBuYBjoB0wzAAA++cQMpgIAAA=
+  </data>
+ </layer>
+ <layer name="vangto" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglGAC7APtANGwZABo2mFOgAASsdaAZgIAAA=
+  </data>
+ </layer>
+ <layer name="da" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMgpED2AbaAVQCo/4YXGC4+GMwAACEPOD6mAgAAA==
+  </data>
+ </layer>
+ <layer name="so1" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC91TWwrAMAwK9P533m8JanTdYCxQ6MOqIUnVv2NtC513XIF7xaX4no7uj/lVHjse7dM8nPwXWF3TzWPinvjUO9NQGJaLqhPTdn0oXFoPdjfldeID9cOd+WE8zrwjLrRnelVYI9Fl/Z3WDmEUj+s/8YT8nXhEXFPPsr/I46TnvqX968732xxfjwtUGzCQmAgAAA==
+  </data>
+ </layer>
+ <layer name="so2" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAW0ACxo9GAA5LiJVv6gxFx8egmZN1jiYzCmj6EKqBWGLFQ0i1R7kWlcYoMdDHZ/DFT8jgLSAQBPMNx7mAgAAA==
+  </data>
+ </layer>
+ <layer name="so3" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMBGAdaAeMglEwCkbBIAQAnVEvCpgIAAA=
+  </data>
+ </layer>
+ <layer name="cua" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMZMA00A4YBaNgFIwCJAAArBlWDJgIAAA=
+  </data>
+ </layer>
+ <layer name="dich" width="50" height="11" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMgsELGKF4qIPh4o9RMApoDQBdei4rmAgAAA==
+  </data>
+ </layer>
+</map>
